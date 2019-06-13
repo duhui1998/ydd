@@ -1,0 +1,125 @@
+.top{
+     width: 16rem;
+     height: 3.5rem;
+     background-color: #1F301E;
+     position:relative;
+     position: fixed;
+}
+.top input{
+ 	margin-top: 1.5rem; 
+    background-color: #436544;
+    border: none;
+    width: 13.3rem; 
+    height: 1.5rem;
+    border-radius: 0.3125rem;
+    margin-left: 0.65rem;
+    padding-left: 1.2rem;
+}
+input::-webkit-input-placeholder {
+  color: white;
+}
+.top .icon-search{
+	position: absolute;
+	left:1rem;
+	top:1.9rem;
+	color: white;
+}
+.nav{
+    height: 33.875rem;
+}
+.nav .n-l{
+	height: 30.3rem;
+	width: 3rem;
+	background-color: #ccc;
+	padding-top:3.5rem;
+	float: left;
+}
+ .nav .n-l ul li{
+    width: 3rem;
+    height: 2rem;
+    padding-top: 0.2rem;
+    padding-left: 0.2rem;
+    font-size: 0.75rem;
+}
+.nav .n-l ul li:hover{
+	background-color: white;
+}
+.nav .n-r{
+	float: left;
+	width: 12.8rem;
+	height: 15.875rem;
+	padding-top:3.5rem;
+	margin-left: 0.2rem;
+}
+.nav .n-r .r-t{
+	height: 1.6rem;
+	border-bottom: 0.1rem solid #ccc;
+	overflow: hidden;
+}
+.nav .n-r .r-t li{
+	float: left;
+	font-size: 0.75rem;
+	width: 3rem;
+	height: 1.3rem;
+	background-color: #ccc;
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;
+	text-align: center;
+	font-size: 0.65rem;
+	line-height: 1.3rem;
+	border-radius: 0.2rem;
+}
+.nav .n-r .r-b{
+	height: 29.875rem;
+	margin-top: 0.3rem;
+	overflow: hidden;
+}
+.nav .n-r .r-b h5{
+	font-size: 0.75rem;
+	font-weight: normal;
+	margin-bottom: 0.3rem;
+}
+.nav .n-r .r-b img{
+	width: 5rem;
+	height: 5rem;
+	float: left;
+	margin-right: 0.5rem;
+}
+.nav .n-r .r-b p{
+	font-size: 0.75rem;
+	margin-bottom: 2.5rem;
+}
+.nav .n-r .r-b .p{
+	font-size: 0.55;
+	color:red;
+}
+.nav .n-r .r-b span{
+	float: right;
+	width: 1.2rem;
+	height: 1.2rem;
+	border-radius: 50%;
+	background-color: #436544;
+	text-align: center;
+	line-height: 1.2rem;
+}
+
+.nav .n-r .r-b span:hover{
+	 transform: translate(50px,20px);
+	 position: absolute;
+	 top:33.5rem;
+	 left:5.5rem;
+}
+.footer{
+	width: 16rem;
+	height: 30rem;
+	background-color: #ccc;
+}
+.footer ul li{
+	float: left;
+	margin-right: 1rem;
+	margin-left: 1.2rem;
+	line-height: 2.3rem;
+}
+.footer ul li span{
+	font-size: 1rem;
+}
